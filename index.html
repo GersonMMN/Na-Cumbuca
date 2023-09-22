@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Na Cumbuca</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="c:\Users\01604283\Downloads\image-removebg-preview (1).png">
+</head>
+<body>
+    <header>
+        <h1><img src="c:\Users\01604283\Downloads\Logo-removebg-preview.png" alt=""></h1>
+        <nav>
+            <ul>
+                <li><a href="#Informações">Informações</a></li>
+                <li><a href="#reservas">Reservas</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="menu">
+        <h2>Informações</h2>
+        <p>Na cumbuca é um restaurante de comidas regionais, oferecemos a melhor forma de comer, que é "Na Cumbuca".</p>
+        <!-- Listagem de pratos -->
+        <div class="prato">
+            
+        </div>
+        <!-- Adicione mais pratos conforme necessário -->
+    </section>
+    
+    <section id="reservas">
+        <h2>Reservas</h2>
+        <p>Para fazer uma reserva, entre em contato conosco pelo telefone ou preencha o formulário abaixo.</p>
+        <form action="reserva.php" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="data">Data:</label>
+            <input type="date" id="data" name="data" required>
+            <label for="pessoas">Número de pessoas:</label>
+            <input type="number" id="pessoas" name="pessoas" min="1" required>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Estamos à disposição para responder às suas perguntas. Entre em contato pelo formulário abaixo ou pelo telefone.</p>
+        <form action="contato.php" method="post">
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 Restaurante Delícia</p>
+    </footer>
+</body>
+</html>
