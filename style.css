@@ -1,0 +1,117 @@
+/* Reset de estilos padrão do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Banner */
+#banner img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+/* Seção de Menu */
+#menu {
+    padding: 2rem;
+    background-color: #fff;
+}
+
+#menu h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+/* Seção de Reservas */
+#reservas {
+    padding: 2rem;
+    background-color: #f9f9f9;
+}
+
+#reservas h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+#reservas label,
+#reservas input,
+#reservas button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#reservas input,
+#reservas button {
+    width: 100%;
+    padding: 10px;
+}
+
+/* Seção de Contato */
+#contato {
+    padding: 2rem;
+    background-color: #fff;
+}
+
+#contato h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+#contato label,
+#contato textarea,
+#contato button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#contato textarea {
+    width: 100%;
+    padding: 10px;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: #fff;
+    font-size: 0.9rem;
+}
